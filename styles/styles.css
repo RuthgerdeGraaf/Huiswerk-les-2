@@ -1,7 +1,4 @@
 
-@import "frontend-html-css-domeinshop-master/assets/images/mountains.jpg";
-@import url("frontend-html-css-domeinshop-master/assets/images");
-
 body {
     margin: 0;
     padding: 0;
@@ -99,8 +96,7 @@ button {
     color: white;
 }
 .background-image{
-    /*background-image: url("frontend-html-css-domeinshop-master/assets/images/mountains.jpg");*/
-    /*Op een of andere manier blijft de server hier een 404 voor geven, terwijl de pathing hier naartoe klopt.*/
+    background-image: url("../assets/images/mountains.jpg");
     position: static;
     background-size: cover;
     width: 1600px;
