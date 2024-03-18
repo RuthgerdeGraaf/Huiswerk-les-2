@@ -1,49 +1,173 @@
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
 
+@import "frontend-html-css-domeinshop-master/assets/images/mountains.jpg";
+@import url("frontend-html-css-domeinshop-master/assets/images");
 
-
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
-
-
-
-/*////////////////////////
-    2. Typography
-////////////////////////*/
-
-
-
-/*////////////////////////
-    3. Areas
-////////////////////////*/
-
-
-
-/*///////////// 3.1 Header /////////////*/
-
-
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-
-/*///////////// 3.3 Support /////////////*/
-
-
-
-/*///////////// 3.4 Faq /////////////*/
-
-
-
-/*///////////// 3.5 Footer /////////////*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    flex-direction: column;
+}
+header,
+main,
+footer {
+    max-width: 1000px;
+    width: 100%;
+    padding: 1px;
+}
+.text{
+    position: relative;
+    text-align: center;
+}
+.Bergen{
+    padding: 0 10%;
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 75%;
+    object-fit: cover;
+}
+.Domein{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+}
+.Vraag{
+    position: absolute;
+    top: 17%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+button {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: -1px;
+    padding: 20px;
+    border: solid black;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.button_1{
+    left: 19%;
+    display: inline-block;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 300px;
+    text-align: left;
+}
+.button_1:hover{
+    background-color: #899CA0;
+    border-color: #899CA0;
+    color: white;
+}
+.button_2{
+    left: 50%;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+}
+.button_2:hover{
+    background-color: #899CA0;
+    border-color: #899CA0;
+    color: white;
+}
+.button_3{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50px;
+    width: 200px;
+    position: static;
+}
+.button_3:hover{
+    background-color: #899CA0;
+    border-color: #899CA0;
+    color: white;
+}
+.background-image{
+    /*background-image: url("frontend-html-css-domeinshop-master/assets/images/mountains.jpg");*/
+    /*Op een of andere manier blijft de server hier een 404 voor geven, terwijl de pathing hier naartoe klopt.*/
+    position: static;
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    left: -50%;
+    display: block;
+    margin: 0 auto;
+}
+#callcenter{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.blockquote{
+    font-size: medium;
+    position: relative;
+    box-shadow:
+            0 0 0 2px aliceblue,
+            0.3em 0.3em 1em #899CA0;
+    text-align: left;
+    width: 1000px;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    padding: 57px;
+    border-radius: 10px;
+    left: -6%;
+}
+.h2{
+    position: static;
+    text-align: center;
+}
+.text{
+    text-align: left;
+}
+.FAQ{
+   text-align: start;
+}
+.FAQ:hover{
+    cursor: pointer;
+}
+.antwoord{
+    max-width: 1000px;
+    word-wrap: break-word;
+    display: inline-block;
+    background-color: #899CA0;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+}
+.link{
+    color: #899CA0;
+}
+.link:hover{
+    text-decoration: none;
+}
+.copyright {
+    font-size: small;
+    position: relative;
+    text-align: center;
+    width: 190%;
+    height: 20px;
+    display: block;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    left: -500px;
+    background-color: #1C2B32;
+    color: white;
+}
